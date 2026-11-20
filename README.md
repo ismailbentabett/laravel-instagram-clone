@@ -181,7 +181,7 @@ laravel-instagram-clone/
 - [ ] Profile editing and avatar uploads, replacing the placeholder avatar and follower counts
 - [ ] Follow / unfollow and a feed of followed users' posts
 - [ ] Image resizing on upload (Intervention Image is already a dependency)
-- [ ] Remove the `/phpinfo` debug route
+- [x] Remove the `/phpinfo` debug route
 - [ ] Replace the navbar icon in `public/svg/` with the project's own logo
 - [ ] Feature tests for auth, posts and profiles, plus a CI workflow
 
