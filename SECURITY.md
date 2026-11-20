@@ -27,7 +27,6 @@ You can expect an acknowledgement within a few days. Once the issue is confirmed
 
 This codebase is intended for local development and study. Before exposing it on a public server:
 
-- **Remove the `/phpinfo` route** in `routes/web.php`. It prints the full PHP configuration and environment.
 - Set `APP_ENV=production` and `APP_DEBUG=false`, and generate a fresh `APP_KEY` with `php artisan key:generate`.
 - Keep `.env` out of version control (it is already listed in `.gitignore`).
 - Review upload limits and allowed MIME types for post images.
