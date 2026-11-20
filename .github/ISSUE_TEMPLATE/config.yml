@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ismailbentabett/laravel-instagram-clone/security/advisories/new
+    about: Please report security issues privately through GitHub instead of opening a public issue.
+  - name: Maintainer profile
+    url: https://github.com/ismailbentabett
+    about: Questions about the project or collaboration.

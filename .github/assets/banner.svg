@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title">
+  <title id="title">Laravel Instagram Clone banner</title>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F19" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8134AF" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="wash2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F58529" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#0B0F19" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="1" x2="1" y2="0"><stop offset="0.00" stop-color="#F58529"/><stop offset="0.50" stop-color="#DD2A7B"/><stop offset="1.00" stop-color="#8134AF"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#FFFFFF"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#0B0F19"/>
+    <rect width="1280" height="400" fill="url(#wash)"/>
+    <rect width="1280" height="400" fill="url(#wash2)"/>
+    <rect width="1280" height="400" fill="url(#dots)" opacity="0.06"/>
+  </g>
+  <g transform="translate(88 100) scale(0.78125)">
+    <rect width="256" height="256" rx="56" fill="url(#tile)"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><circle cx="128" cy="128" r="78"/><path d="M157.4 111.0L80.2 66.4M157.4 145.0L157.4 55.8M128.0 162.0L205.3 117.4M98.6 145.0L175.8 189.6M98.6 111.0L98.6 200.2M128.0 94.0L50.7 138.6"/></g>
+  </g>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="340" y="188" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Laravel Instagram Clone</text>
+    <text x="340" y="240" font-size="26" font-weight="400" fill="#A1A8B8">A photo-sharing reference implementation built on Laravel 8</text>
+    <rect x="340" y="282" width="112" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="396" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">PHP 7.3+</text>
+    <rect x="464" y="282" width="122" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="525" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">Laravel 8</text>
+    <rect x="598" y="282" width="84" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="640" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">Blade</text>
+    <rect x="694" y="282" width="141" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="764" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">Bootstrap 4</text>
+    <rect x="847" y="282" width="84" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="889" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">MySQL</text>
+    <rect x="943" y="282" width="141" height="40" rx="20" fill="#DD2A7B" fill-opacity="0.08" stroke="#DD2A7B" stroke-width="1"/><text x="1014" y="308" text-anchor="middle" font-size="17" font-weight="600" fill="#E5E7EB">Laravel Mix</text>
+  </g>
+</svg>
